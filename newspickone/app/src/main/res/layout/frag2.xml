@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.loginpro.frag2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="546dp"
+        android:background="@drawable/map"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/seoul"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="350dp"
+        android:layout_marginRight="130dp"
+        android:clickable="true"
+        android:text="서울"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/incheon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="390dp"
+        android:layout_marginRight="210dp"
+        android:clickable="true"
+        android:text="인천"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cung"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="70dp"
+        android:clickable="true"
+        android:text="충청도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kug"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginRight="105dp"
+        android:clickable="true"
+        android:text="경기도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/kungsang"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="150dp"
+        android:clickable="true"
+        android:text="경상도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/wondo"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="370dp"
+        android:layout_marginLeft="110dp"
+        android:clickable="true"
+        android:text="강원도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/jun"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="110dp"
+        android:clickable="true"
+        android:text="전라도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/jeju"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="230dp"
+        android:clickable="true"
+        android:text="제주도"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
