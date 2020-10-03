@@ -32,27 +32,29 @@ public class frag2_chungcheongdo extends Fragment {
     private RecyclerView.LayoutManager layoutManager;
     private String[] myDataset = {"1","2"};
     RequestQueue queue ;
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+   public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         ViewGroup view = (ViewGroup) inflater.inflate(R.layout.frag2_chungcheongdo, container, false);
-        recyclerView = view.findViewById(R.id.my_recycler_view);
 
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
-        recyclerView.setHasFixedSize(true);
+        /*   recyclerView = view.findViewById(R.id.my_recycler_view);
 
-        // use a linear layout manager
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
+    // use this setting to improve performance if you know that changes
+    // in content do not change the layout size of the RecyclerView
+    recyclerView.setHasFixedSize(true);
+
+    // use a linear layout manager
+    layoutManager = new LinearLayoutManager(this);
+
+    recyclerView.setLayoutManager(layoutManager);
 
 
-        queue = Volley.newRequestQueue(this);
-        getNews(); //1번 과정
-        //1. 화면이 로딩 - > 뉴스 정보를 받아온다
-        //2. 정보를 받아온다 - > adapter로 넘겨준다
-        //3. adapter가 받아온다 - > setting
-        return view;
-    }
+    queue = Volley.newRequestQueue(this);
+    getNews(); //1번 과정
+    //1. 화면이 로딩 - > 뉴스 정보를 받아온다
+    //2. 정보를 받아온다 - > adapter로 넘겨준다
+    //3. adapter가 받아온다 - > setting
+    return view;
+}
     public void getNews(){ //news information을 받아오는 것
         // volley는 queue에 담아 하나씩 보여준다
 
@@ -106,7 +108,8 @@ public class frag2_chungcheongdo extends Fragment {
 
         // Add the request to the RequestQueue.
         queue.add(stringRequest);
-
+*/
+        return view;
     }
 
 }

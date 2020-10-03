@@ -1,4 +1,4 @@
-package com.example.loginpro;
+/*package com.example.loginpro;
 
 import android.content.Context;
 import android.net.Uri;
@@ -74,3 +74,4 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MyViewHolder> 
         return mDataset ==  null ? 0 : mDataset.size();
     }
 }
+*/
