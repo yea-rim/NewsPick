@@ -1,28 +1,27 @@
-CREATE database pickMe;
-USE pickMe;
+USE newspick;
 
 
 CREATE TABLE press(
-	pressID int(10) not null,
-    pressName varchar(10) not null,
-    pressSubscription int(1) not null,
+	pressID INT(10) NOT NULL,
+    pressName VARCHAR(10) NOT NULL,
+    pressSubscription INT(1) NOT NULL,
     PRIMARY KEY(pressID)
 );
 
 CREATE TABLE reporter(
-	reporterID int(10) not null,
-	reporterName varchar(10) not null,
-	reporterSubscription int(1) not null,
-	pressName varchar(10) not null,
+	reporterID INT(10) NOT NULL,
+	reporterName VARCHAR(10) NOT NULL,
+	reporterSubscription INT(1) NOT NULL,
+	pressName VARCHAR(10) NOT NULL,
 	FOREIGN KEY(pressName) REFERENCES press(pressName),
 	PRIMARY KEY(reporterID)
 );
 
-CREATE TABLE user(
-	ID varchar(20) not null,
-	password varchar(20) not null,
-	pressSubscription int(1) not null,
-	eporterSubscription int(1) not null,
+CREATE TABLE USER(
+	ID VARCHAR(20) NOT NULL,
+	PASSWORD VARCHAR(20) NOT NULL,
+	pressSubscription INT(1) NOT NULL,
+	eporterSubscription INT(1) NOT NULL,
 	FOREIGN KEY(pressSubscription) REFERENCES press(pressSubscription),
 	FOREIGN KEY(reporterSubscription) REFERENCES reporter(reporterSubscription),
 	PRIMARY KEY(ID)
